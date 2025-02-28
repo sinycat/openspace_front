@@ -3,6 +3,7 @@ import { mainnet } from 'viem/chains'
 import dotenv from 'dotenv'
 dotenv.config()
 
+// 运行本项目 实时监控USDT合约的每笔转账交易,并在控制台打印
 // 使用 process.env 来获取环境变量
 const MAIN_NET_RPC_URL = process.env.MAIN_NET_RPC_URL;
 // USDT 合约地址
